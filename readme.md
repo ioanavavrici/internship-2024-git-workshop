@@ -17,6 +17,7 @@
 <br/>
 
 > 🤔 Question: What is vesion control?
+
 <p align="center">
   <img style="width:100%;" src="/assets/what-is-version-control.jpg">
 </p>
@@ -24,6 +25,7 @@
 <br/>
 
 > 🤔 Question: When you first started to use a version control?
+
 <p align="center">
   <img width="1000" src="/assets/first-time.gif">
 </p>
@@ -31,6 +33,7 @@
 <br/>
 
 > 🤔 Question: What benefits it gave you?
+
 <p align="center">
   <img style="width:100%;height:100%" src="/assets/benefits.jpg">
 </p>
@@ -38,13 +41,14 @@
 <br/>
 
 > 🤔 Question: Does it make sense to use a version control in your personal projects?
+
 <p align="center">
   <img width="1000" src="/assets/it-make-sense.gif">
 </p>
 
 <br/>
 
-> 💡 **Version control**, also known as source control, is the **practice** of **tracking** and **managing changes** to software code.  
+> 💡 **Version control**, also known as source control, is the **practice** of **tracking** and **managing changes** to software code.
 
 > 💡 If a mistake is made, developers can turn back the clock and **compare earlier versions** of the code to help **fix the mistake** while **minimizing disruption** to all team members.
 
@@ -59,6 +63,7 @@
 <br/>
 
 > 🤔 Question: What is a version control system?
+
 <p align="center">
   <img style="width:80%;" src="/assets/version-control.png">
 </p>
@@ -66,6 +71,7 @@
 <br/>
 
 > 🤔 Question: How many version control systems do you know?
+
 <p align="center">
   <img width="600" src="/assets/there-can-be-only-one.jpg">
 </p>
@@ -79,6 +85,7 @@
 <br/>
 
 > 💡 There are a lot of version control systems.
+
 <p align="center">
   <img width="1000" src="/assets/so-many.gif">
 </p>
@@ -87,7 +94,8 @@
 
 <br/>
 
-> 💡 Some of the cool ones! 
+> 💡 Some of the cool ones!
+
 <p align="center">
   <img style="width:100%;height:100%" src="/assets/version-control-tools.jpg">
 </p>
@@ -104,30 +112,31 @@
 
 <br/>
 
-> 🤔 Question: Version control systems: distributed vs centralized. What is the difference? 
+> 🤔 Question: Version control systems: distributed vs centralized. What is the difference?
+
 <p align="center">
   <img style="width:100%;height:100%" src="/assets/central-decentral.png">
 </p>
 
 <br/>
 
-> 💡 **Centralized** VCSs **keep the history of changes on a central server** from which everyone requests the latest version of the work and pushes the latest changes to. This means that **everyone* sharing the server** also **shares everyone’s work**.
+> 💡 **Centralized** VCSs **keep the history of changes on a central server** from which everyone requests the latest version of the work and pushes the latest changes to. This means that **everyone\* sharing the server** also **shares everyone’s work**.
 
 > 💡 On a **Distributed** VCS, everyone has a **local copy of the entire work’s history**. This means that it **is not necessary to be online to change revisions** or add changes to the work.
 
-* **Distributed VCS**: Git, Mercurial.
-* **Centralized VCS**: CVS, Perforce, SVN.
+- **Distributed VCS**: Git, Mercurial.
+- **Centralized VCS**: CVS, Perforce, SVN.
 
 <br/>
 
-* [VERSION CONTROL SYSTEMS: DISTRIBUTED VS. CENTRALIZED](https://www.oshyn.com/blog/version-control-systems-distributed-vs-centralized)
-
+- [VERSION CONTROL SYSTEMS: DISTRIBUTED VS. CENTRALIZED](https://www.oshyn.com/blog/version-control-systems-distributed-vs-centralized)
 
 ---
 
 <br/>
 
 ## What is git?[![](/assets/pin.svg)](#what-is-git)
+
 <br/>
 
 <p align="center">
@@ -167,15 +176,15 @@
 
 <br/>
 
-* [bitbucket](https://bitbucket.org)
-* [github](https://github.com)
-* [gitlab](https://about.gitlab.com)
-  
+- [bitbucket](https://bitbucket.org)
+- [github](https://github.com)
+- [gitlab](https://about.gitlab.com)
+
 ---
 
 <br/>
 
-  ## What is GitHub[![](/assets/pin.svg)](#what-is-github)
+## What is GitHub[![](/assets/pin.svg)](#what-is-github)
 
 <br/>
 
@@ -201,42 +210,41 @@
 <br/>
 
 # Playground
-  
+
 ## STEP 1. Create a GitHub account
 
 <br/>
 
 Create a [GitHub account](https://github.com)
-  
+
 ---
-  
+
 ## STEP 2. Get Git bash
 
 <br/>
 
 Download [Git bash](https://git-scm.com/downloads)
- 
----  
-  
+
+---
+
 ## STEP 3. Get Git bash
 
 <br/>
 
-* Create a ssh key
+- Create a ssh key
 
-* Enter `ls -al ~/.ssh` to [see if existing SSH keys are present](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
+- Enter `ls -al ~/.ssh` to [see if existing SSH keys are present](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
 
-* [Generating a new SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Generating a new SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-* [Add ssh key to your GitHub Profile](https://github.com/settings/ssh/new)
-  
+- [Add ssh key to your GitHub Profile](https://github.com/settings/ssh/new)
+
 ---
-  
-  
 
 ## TASK 1
 
 > 👉 Fa clone la proiect.
+
 ```
 git clone git@github.com:victorjeman/internship-2021-git-tutorial.git
 ```
@@ -244,6 +252,7 @@ git clone git@github.com:victorjeman/internship-2021-git-tutorial.git
 <br/>
 
 > 👉 Verifica branch-ul local pe care te afli. Ar trebuie sa fie branch-ul "main".
+
 ```
 git branch
 ```
@@ -251,6 +260,7 @@ git branch
 <br/>
 
 > 👉 Fa un branch nou si da-i numele "feature/task-1".
+
 ```
 git checkout -b feature/task-1
 ```
@@ -258,6 +268,7 @@ git checkout -b feature/task-1
 <br/>
 
 > 👉 Cu un "git branch" poti sa confirmi ca te afli pe noul branch creat local.
+
 ```
 git branch
 ```
@@ -265,16 +276,17 @@ git branch
 <br/>
 
 <p align="center">
-  <img width="700" src="/assets/tasks/2.jpg">
+  <img width="700" src="/assets/tasks/2.png">
 </p>
 
 <p align="center">
-  <img width="700" src="/assets/tasks/3.jpg">
+  <img width="700" src="/assets/tasks/3.png">
 </p>
 
 <br/>
 
 > 👉 Creeaza 3 fisiere noi.
+
 ```
 touch play/pretty-1.md play/pretty-2.md play/pretty-3.md play/pretty-4.md
 ```
@@ -282,6 +294,7 @@ touch play/pretty-1.md play/pretty-2.md play/pretty-3.md play/pretty-4.md
 <br/>
 
 > 👉 Scrie in fiecare fisier urmatorul text.
+
 ```
 I feel charming
 Oh so charming
@@ -293,6 +306,7 @@ That I hardly can believe I'm real
 <br/>
 
 > 👉 Verifica situatia.
+
 ```
 git status
 ```
@@ -308,6 +322,7 @@ git status
 <br/>
 
 > 👉 Adauga fisierele "pretty-1.md" si "pretty-2.md" in gitul tau local.
+
 ```
 git add play/pretty-1.md play/pretty-2.md
 ```
@@ -315,6 +330,7 @@ git add play/pretty-1.md play/pretty-2.md
 <br/>
 
 > 👉 Verifica situatia. Trebuie sa ai 2 fisiere cu verde si 2 cu rosu. Fisierele cu verde sunt in staged area.
+
 ```
 git status
 ```
@@ -329,6 +345,7 @@ git commit -m "TASK 1 | Am adaugat fisierele pretty-1.md si pretty-2.md" -m "So 
 <br/>
 
 > 👉 Fa push cu modificarile din git-ul tau local(staged area) pe remote(GitHub).
+
 ```
 git push origin feature/task-1
 ```
@@ -346,20 +363,23 @@ git push origin feature/task-1
 ## TASK 2
 
 > 👉 Verifica pe ce branch esti pe local.
+
 ```
-git branch 
+git branch
 ```
 
 <br/>
 
 > 👉 Inainte sa te apuci de un alt task/feature mereu sa mergi inapoi pe branch-ul local "main".
+
 ```
-git checkout main 
+git checkout main
 ```
 
 <br/>
 
 > 👉 Sterge branch-ul local "feature/task-1". Dupa ce faci merge la un branch in main, mereu sa-l stergi de pe local.
+
 ```
 git branch -D feature/task-1
 ```
@@ -367,6 +387,7 @@ git branch -D feature/task-1
 <br/>
 
 > 👉 Daca nu ai sters branch-ul remote(din GitHub) "feature/task-1" cand ai facut merge in "main", sterge-l acum. Mereu sa stergi branch-urile remote dupa ce le faci merge in branch-ul "main".
+
 ```
 git push -d origin feature/task-1
 ```
@@ -374,13 +395,15 @@ git push -d origin feature/task-1
 <br/>
 
 > 👉 Mai verifica o data lista de branch-uri locale. Observa ca branch-ul "feature/task-1 " nu mai apare in lista.
+
 ```
 git branch
 ```
 
 <br/>
 
-> 👉 Inainte sa lucrezi la un nou feature, asigura-te ca branch-ul tau local "main" este la zi cu modificarile  din branch-ul "main" remote(de pe GitHub). Fiind pe branch-ul "main" local, faci un git pull de pe branch-ul "main" remote.
+> 👉 Inainte sa lucrezi la un nou feature, asigura-te ca branch-ul tau local "main" este la zi cu modificarile din branch-ul "main" remote(de pe GitHub). Fiind pe branch-ul "main" local, faci un git pull de pe branch-ul "main" remote.
+
 ```
 git pull origin main
 ```
@@ -388,6 +411,7 @@ git pull origin main
 <br/>
 
 > 👉 Branch-ul tau local "main" fiind la zi, poti sa faci un alt branch "feature/task-2" care porneste din branch-ul "main".
+
 ```
 git checkout -b feature/task-2
 ```
@@ -395,6 +419,7 @@ git checkout -b feature/task-2
 <br/>
 
 > 👉 Noi in task-ul anterior nu am facut commit si push la toate fisierele. Momentan mai avem doua fisiere care sunt untracked de git(au culoarea rosie).
+
 ```
 git status
 ```
@@ -402,6 +427,7 @@ git status
 <br/>
 
 > 👉 Adauga ambele fisiere in git-ul tau local. De data asta in loc sa adaugam fiecare fisier in parte o sa adauga toate modificarile modificate.
+
 ```
 git add .
 ```
@@ -409,6 +435,7 @@ git add .
 <br/>
 
 > 👉 Asigura-te ca fisierele tale sunt cu verde, adica adaugate in staged area.
+
 ```
 git status
 ```
@@ -416,6 +443,7 @@ git status
 <br/>
 
 > 👉 Adauga un commit
+
 ```
 git commit -m "TASK 2 | Gata si task-ul 2" -m "Am mai invatat niste chestii noi."
 ```
@@ -423,6 +451,7 @@ git commit -m "TASK 2 | Gata si task-ul 2" -m "Am mai invatat niste chestii noi.
 <br/>
 
 > 👉 Fa push pe remote(pe git-ul integrat/instalat in GitHub)
+
 ```
 git push origin feature/task-2
 ```
@@ -459,6 +488,7 @@ That I hardly can believe I'm real
 <br/>
 
 > 👉 Confirma ca esti pe branch-ul "feature/task-2"
+
 ```
 git branch
 ```
@@ -466,6 +496,7 @@ git branch
 <br/>
 
 > 👉 Fa branch-ul "feature/task-2.1"
+
 ```
 git checkout -b feature/task-2.1
 ```
@@ -476,10 +507,11 @@ git checkout -b feature/task-2.1
 
 <br/>
 
-> 👉 In fisierul "pretty-1.md" si "pretty-2.md" 
+> 👉 In fisierul "pretty-1.md" si "pretty-2.md"
 > Acceptance Criteria 1: schimba cuvantul "charming" cu "handsome".
 > Acceptance Criteria 1: Inlocuieste randul 4 cu "++++++"
-> Pentru task-2.1 fisierele "pretty-1.md" si "pretty-2.md"  trebuie sa contina
+> Pentru task-2.1 fisierele "pretty-1.md" si "pretty-2.md" trebuie sa contina
+
 ```
 I feel handsome
 Oh so charming
@@ -491,6 +523,7 @@ That I hardly can believe I'm real
 <br/>
 
 > 👉 Pune modificarile pe un branch remote
+
 ```
 git add .
 git commit -m "TASK 2.1 | Modificare 2.1"
@@ -541,10 +574,11 @@ git checkout -b feature/task-2.2
 
 <br/>
 
-> 👉 In fisierul "pretty-1.md" si "pretty-2.md" 
+> 👉 In fisierul "pretty-1.md" si "pretty-2.md"
 > Acceptance Criteria 1: langa cuvantul charming adauga "and sexy"
 > Acceptance Criteria 2: sterge randu "And so pretty"
 > Pentru task-2.2 fisierele "pretty-1.md" si "pretty-2.md" trebuie sa contina
+
 ```
 I feel charming
 Oh so charming
@@ -556,6 +590,7 @@ That I hardly can believe I'm real
 <br/>
 
 > 👉 Pune modificarile pe un branch remote
+
 ```
 git add .
 git commit -m "TASK 2.2 | Modificare 2.2"
@@ -576,9 +611,8 @@ git push origin feature/task-2.1
 
 > 👉 Fa merge la "feature/task-2" in "main"
 
-
 ## Task 3
 
-> Caute in commit-urile vechi si fa o ajustare  
+> Caute in commit-urile vechi si fa o ajustare
 
 git log --all --grep='Task 2.2'
