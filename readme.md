@@ -611,4 +611,14 @@ git push origin nume-prenume/task-2.1
 
 <br/>
 
+Daca doriti sa mai aprofundati, puteti urmari si urmatorul tutorial
+
+<br/>
+
+<a name="logo" href="https://www.youtube.com/watch?v=1nQzh2D1YtI&ab_channel=ASSISTSoftwareRomania%7CSoftwareDevelopmentCompany">
+  Git pentru incepatori
+</a>
+
+<br/>
+
 All good, congratulatons!
