@@ -259,10 +259,10 @@ git branch
 
 <br/>
 
-> 👉 Fa un branch nou si da-i numele "feature/task-1".
+> 👉 Fa un branch nou si da-i numele "nume-prenume/task-1".
 
 ```
-git checkout -b feature/task-1
+git checkout -b nume-prenume/task-1
 ```
 
 <br/>
@@ -288,7 +288,7 @@ git branch
 > 👉 Creeaza 3 fisiere noi.
 
 ```
-touch play/pretty-1.md play/pretty-2.md play/pretty-3.md play/pretty-4.md
+touch pretty-1.txt pretty-2.txt pretty-3.txt pretty-4.txt
 ```
 
 <br/>
@@ -316,15 +316,15 @@ git status
 > 👉 Asa ceva ar trebui sa vezi
 
 <p align="center">
-  <img width="700" src="/assets/tasks/1.jpg">
+  <img width="700" src="/assets/tasks/1.png">
 </p>
 
 <br/>
 
-> 👉 Adauga fisierele "pretty-1.md" si "pretty-2.md" in gitul tau local.
+> 👉 Adauga fisierele "pretty-1.txt" si "pretty-2.txt" in gitul tau local.
 
 ```
-git add play/pretty-1.md play/pretty-2.md
+git add pretty-1.txt pretty-2.txt
 ```
 
 <br/>
@@ -339,7 +339,7 @@ git status
   
 > 👉 Adauga un commit cu mesaj si descriere pentru fisierele tale din staged area.
 ```
-git commit -m "TASK 1 | Am adaugat fisierele pretty-1.md si pretty-2.md" -m "So far so good. Primul task nu pare asa de greu."
+git commit -m "TASK 1 | Am adaugat fisierele pretty-1.txt si pretty-2.txt"
 ```
 
 <br/>
@@ -352,11 +352,7 @@ git push origin feature/task-1
 
 <br/>
 
-> 👉 Fa un pull request in GitHub.
-
-<br/>
-
-> 👉 Fa merge la pull request in branch-ul "main".
+So far so good. Primul task nu pare asa de greu.
 
 <br/>
 
@@ -378,23 +374,23 @@ git checkout main
 
 <br/>
 
-> 👉 Sterge branch-ul local "feature/task-1". Dupa ce faci merge la un branch in main, mereu sa-l stergi de pe local.
+> 👉 Sterge branch-ul local "nume-prenume/task-1". Dupa ce faci merge la un branch in main, mereu sa-l stergi de pe local.
 
 ```
-git branch -D feature/task-1
-```
-
-<br/>
-
-> 👉 Daca nu ai sters branch-ul remote(din GitHub) "feature/task-1" cand ai facut merge in "main", sterge-l acum. Mereu sa stergi branch-urile remote dupa ce le faci merge in branch-ul "main".
-
-```
-git push -d origin feature/task-1
+git branch -D nume-prenume/task-1
 ```
 
 <br/>
 
-> 👉 Mai verifica o data lista de branch-uri locale. Observa ca branch-ul "feature/task-1 " nu mai apare in lista.
+> 👉 Daca nu ai sters branch-ul remote(din GitHub) "nume-prenume/task-1" cand ai facut merge in "main", sterge-l acum. Mereu sa stergi branch-urile remote dupa ce le faci merge in branch-ul "main".
+
+```
+git push -d origin nume-prenume/task-1
+```
+
+<br/>
+
+> 👉 Mai verifica o data lista de branch-uri locale. Observa ca branch-ul "nume-prenume/task-1 " nu mai apare in lista.
 
 ```
 git branch
@@ -410,10 +406,10 @@ git pull origin main
 
 <br/>
 
-> 👉 Branch-ul tau local "main" fiind la zi, poti sa faci un alt branch "feature/task-2" care porneste din branch-ul "main".
+> 👉 Branch-ul tau local "main" fiind la zi, poti sa faci un alt branch "nume-prenume/task-2" care porneste din branch-ul "main".
 
 ```
-git checkout -b feature/task-2
+git checkout -b nume-prenume/task-2
 ```
 
 <br/>
@@ -445,7 +441,7 @@ git status
 > 👉 Adauga un commit
 
 ```
-git commit -m "TASK 2 | Gata si task-ul 2" -m "Am mai invatat niste chestii noi."
+git commit -m "TASK 2 | Gata si task-ul 2"
 ```
 
 <br/>
@@ -453,8 +449,12 @@ git commit -m "TASK 2 | Gata si task-ul 2" -m "Am mai invatat niste chestii noi.
 > 👉 Fa push pe remote(pe git-ul integrat/instalat in GitHub)
 
 ```
-git push origin feature/task-2
+git push origin nume-prenume/task-2
 ```
+
+<br/>
+
+Gata si task-ul acesta.
 
 <br/>
 
@@ -463,7 +463,7 @@ git push origin feature/task-2
 <br/>
 
 > Fiind un task mai complicat o sa lucreze doi developeri la el.
-> Rezultatul final al taskului 2 este sa avem in fisierele "pretty-1.md" si "pretty-2.md" urmatorul text.
+> Rezultatul final al taskului 2 este sa avem in fisierele "pretty-1.txt" si "pretty-2.txt" urmatorul text.
 
 <br/>
 
@@ -483,11 +483,11 @@ That I hardly can believe I'm real
 
 <br/>
 
-> 👉 Fa un branch "feature/task-2.1" din branch-ul "feature/task-2"
+> 👉 Fa un branch "nume-prenume/task-2.1" din branch-ul "nume-prenume/task-2"
 
 <br/>
 
-> 👉 Confirma ca esti pe branch-ul "feature/task-2"
+> 👉 Confirma ca esti pe branch-ul "nume-prenume/task-2"
 
 ```
 git branch
@@ -495,22 +495,18 @@ git branch
 
 <br/>
 
-> 👉 Fa branch-ul "feature/task-2.1"
+> 👉 Fa branch-ul "nume-prenume/task-2.1"
 
 ```
-git checkout -b feature/task-2.1
+git checkout -b nume-prenume/task-2.1
 ```
 
 <br/>
 
-> 👉 Fa branch-ul "feature/task-2.1"
-
-<br/>
-
-> 👉 In fisierul "pretty-1.md" si "pretty-2.md"
+> 👉 In fisierul "pretty-1.txt" si "pretty-2.txt"
 > Acceptance Criteria 1: schimba cuvantul "charming" cu "handsome".
 > Acceptance Criteria 1: Inlocuieste randul 4 cu "++++++"
-> Pentru task-2.1 fisierele "pretty-1.md" si "pretty-2.md" trebuie sa contina
+> Pentru task-2.1 fisierele "pretty-1.txt" si "pretty-2.txt" trebuie sa contina
 
 ```
 I feel handsome
@@ -527,12 +523,12 @@ That I hardly can believe I'm real
 ```
 git add .
 git commit -m "TASK 2.1 | Modificare 2.1"
-git push origin feature/task-2.1
+git push origin nume-prenume/task-2.1
 ```
 
 <br/>
 
-> 👉 Fa un pull request prin care vrei sa faci mergi din "feature/task-2.1" in "feature/task-2"
+> 👉 Fa un pull request prin care vrei sa faci mergi din "nume-prenume/task-2.1" in "feature/task-2"
 
 <br/>
 
@@ -546,14 +542,14 @@ git push origin feature/task-2.1
 
 <br/>
 
-> 👉 Fa un branch "feature/task-2.2" din branch-ul "feature/task-2"
+> 👉 Fa un branch "nume-prenume/task-2.2" din branch-ul "nume-prenume/task-2"
 
 <br/>
 
-> 👉 Mai intai schimba-te inapoi pe branch-ul "feature/task-2"
+> 👉 Mai intai schimba-te inapoi pe branch-ul "nume-prenume/task-2"
 
 ```
-git checkout feature/task-2
+git checkout nume-prenume/task-2
 ```
 
 <br/>
@@ -566,18 +562,18 @@ git branch
 
 <br/>
 
-> 👉 Creeaza branch-ul "feature/task-2.2" din branch-ul "feature/task-2"
+> 👉 Creeaza branch-ul "nume-prenume/task-2.2" din branch-ul "nume-prenume/task-2"
 
 ```
-git checkout -b feature/task-2.2
+git checkout -b nume-prenume/task-2.2
 ```
 
 <br/>
 
-> 👉 In fisierul "pretty-1.md" si "pretty-2.md"
+> 👉 In fisierul "pretty-1.txt" si "pretty-2.txt"
 > Acceptance Criteria 1: langa cuvantul charming adauga "and sexy"
 > Acceptance Criteria 2: sterge randu "And so pretty"
-> Pentru task-2.2 fisierele "pretty-1.md" si "pretty-2.md" trebuie sa contina
+> Pentru task-2.2 fisierele "pretty-1.txt" si "pretty-2.txt" trebuie sa contina
 
 ```
 I feel charming
@@ -594,25 +590,25 @@ That I hardly can believe I'm real
 ```
 git add .
 git commit -m "TASK 2.2 | Modificare 2.2"
-git push origin feature/task-2.1
+git push origin nume-prenume/task-2.1
 ```
 
 ## Task 2 updates
 
-> 👉 Fa merge la branch-ul "feature/task-2.1" in "feature/task-2"
+> 👉 Fa merge la branch-ul "nume-prenume/task-2.1" in "nume-prenume/task-2"
 
 <br/>
 
-> 👉 Fa merge la branch-ul "feature/task-2.2" in "feature/task-2"
+> 👉 Fa merge la branch-ul "nume-prenume/task-2.2" in "nume-prenume/task-2"
 
 <br/>
 
 > 👉 Rezolva conflictele.
 
-> 👉 Fa merge la "feature/task-2" in "main"
+<br/>
 
-## Task 3
+> 👉 Fa merge dupa ce ai rezolvat conflictele.
 
-> Caute in commit-urile vechi si fa o ajustare
+<br/>
 
-git log --all --grep='Task 2.2'
+All good, congratulatons!
