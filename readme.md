@@ -611,6 +611,6 @@ git push origin nume-prenume/task-2.1
 
 <br/>
 
-<a name="logo" href="https://www.youtube.com/watch?v=1nQzh2D1YtI&ab_channel=ASSISTSoftwareRomania%7CSoftwareDevelopmentCompany">
+<a name="tutorial" href="https://www.youtube.com/watch?v=1nQzh2D1YtI&ab_channel=ASSISTSoftwareRomania%7CSoftwareDevelopmentCompany">
   Daca doriti sa mai aprofundati, puteti urmari si urmatorul tutorial
 </a>
