@@ -605,6 +605,14 @@ git push origin nume-prenume/task-2.1
 
 <br/>
 
-<a name="tutorial" href="https://www.youtube.com/watch?v=1nQzh2D1YtI&ab_channel=ASSISTSoftwareRomania%7CSoftwareDevelopmentCompany">
-  Daca doriti sa mai aprofundati, puteti urmari si urmatorul tutorial
+Daca doriti sa aprofundati, puteti folosi urmatoarele link-uri
+
+<a href="https://www.youtube.com/watch?v=1nQzh2D1YtI&ab_channel=ASSISTSoftwareRomania%7CSoftwareDevelopmentCompany">
+  Git tutorial pentru incepatori
+</a>
+
+<br/>
+
+<a href="https://learngitbranching.js.org/">
+  Learn git branching (With playground)
 </a>
