@@ -12,7 +12,7 @@
 
 > 🤔 Question: What is vesion control?
 
-<p align="center">
+<p>
   <img style="width:100%;" src="/assets/what-is-version-control.jpg">
 </p>
 
@@ -20,7 +20,7 @@
 
 > 🤔 Question: When you first started to use a version control?
 
-<p align="center">
+<p>
   <img width="1000" src="/assets/first-time.gif">
 </p>
 
@@ -28,7 +28,7 @@
 
 > 🤔 Question: What benefits it gave you?
 
-<p align="center">
+<p>
   <img style="width:100%;height:100%" src="/assets/benefits.jpg">
 </p>
 
@@ -36,7 +36,7 @@
 
 > 🤔 Question: Does it make sense to use a version control in your personal projects?
 
-<p align="center">
+<p>
   <img width="1000" src="/assets/it-make-sense.gif">
 </p>
 
@@ -58,7 +58,7 @@
 
 > 🤔 Question: What is a version control system?
 
-<p align="center">
+<p>
   <img style="width:80%;" src="/assets/version-control.png">
 </p>
 
@@ -66,13 +66,13 @@
 
 > 🤔 Question: How many version control systems do you know?
 
-<p align="center">
+<p>
   <img width="600" src="/assets/there-can-be-only-one.jpg">
 </p>
 
 <br/>
 
-<p align="center">
+<p>
   <img width="600" src="/assets/wrong.gif">
 </p>
 
@@ -80,7 +80,7 @@
 
 > 💡 There are a lot of version control systems.
 
-<p align="center">
+<p>
   <img width="1000" src="/assets/so-many.gif">
 </p>
 
@@ -90,7 +90,7 @@
 
 > 💡 Some of the cool ones!
 
-<p align="center">
+<p>
   <img style="width:100%;height:100%" src="/assets/version-control-tools.jpg">
 </p>
 
@@ -108,7 +108,7 @@
 
 > 🤔 Question: Version control systems: distributed vs centralized. What is the difference?
 
-<p align="center">
+<p>
   <img style="width:100%;height:100%" src="/assets/central-decentral.png">
 </p>
 
@@ -133,13 +133,13 @@
 
 <br/>
 
-<p align="center">
+<p>
   <img style="width:100%;height:100%" src="/assets/git.jpg">
 </p>
 
 <br/>
 
-<p align="center">
+<p>
   <img width="1000" src="/assets/why-are-my-changes-gone.png">
 </p>
 
@@ -160,7 +160,7 @@
 
 <br/>
 
-<p align="center">
+<p>
   <img width="700" src="/assets/git-based-fully-integrated-platform.jpg">
 </p>
 
@@ -182,7 +182,7 @@
 
 <br/>
 
-<p align="center">
+<p>
   <img width="700" src="/assets/github.png">
 </p>
 
@@ -192,7 +192,7 @@
 
 <br/>
 
- <p align="center">
+ <p>
   <img width="700" src="/assets/git-is-not-github.png">
 </p>
   
@@ -218,6 +218,15 @@ Create a [GitHub account](https://github.com)
 <br/>
 
 Download [Git bash](https://git-scm.com/downloads)
+<br />
+
+Configure Git (preferred email and username used on GitHub)
+
+>git config --global user.name "FIRST_NAME LAST_NAME"
+
+>git config --global user.email "MY_NAME@example.com"
+
+<br />
 
 ---
 
@@ -269,11 +278,11 @@ git branch
 
 <br/>
 
-<p align="center">
+<p>
   <img width="700" src="/assets/tasks/2.png">
 </p>
 
-<p align="center">
+<p>
   <img width="700" src="/assets/tasks/3.png">
 </p>
 
@@ -309,7 +318,7 @@ git status
 
 > 👉 Asa ceva ar trebui sa vezi
 
-<p align="center">
+<p>
   <img width="700" src="/assets/tasks/1.png">
 </p>
 
