@@ -230,7 +230,7 @@ Configure Git (preferred email and username used on GitHub)
 
 ---
 
-## STEP 3. Get Git bash
+## STEP 3. Set SSH key
 
 <br/>
 
