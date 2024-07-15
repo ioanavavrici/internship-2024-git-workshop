@@ -246,10 +246,10 @@ Configure Git (preferred email and username used on GitHub)
 
 ## TASK 1
 
-> 👉 Fa clone la proiect.
+> 👉 Fa fork si clone la proiect.
 
 ```
-git clone git@github.com:victorjeman/internship-2021-git-tutorial.git
+git clone git@github.com:[username]/internship-2024-git-workshop.git
 ```
 
 <br/>
